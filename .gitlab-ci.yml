@@ -1,0 +1,5 @@
+production:
+  type: deploy
+  script:
+  - gem install dpl
+  - dpl --provider=heroku --app=utf8garden --api-key=$HEROKU_API_KEY
