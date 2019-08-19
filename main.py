@@ -19,9 +19,9 @@ api = tweepy.API(auth)
 #max dimensions = 16x16 grid = 256 characters
 
 fmap = []
-for y in range(0, 4):
+for y in range(0, 8):
 	fmap.append([])
-	for x in range(0, 4):
+	for x in range(0, 8):
 		fmap[y].append(random.randint(0,8))
 
 # horizontal flip
